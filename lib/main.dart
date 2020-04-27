@@ -49,14 +49,24 @@ class HyhomeProduct extends StatelessWidget {
   HyhomeProduct(this.title,this.desc,this.imageURL);
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: <Widget>[
-        Text(this.title,style: style1),
-        SizedBox(height: 8),
-        Text(this.desc,style: style2),
-        SizedBox(height: 8),
-        Image.network(imageURL)
-      ],
+    return Container(
+      padding: EdgeInsets.all(12),
+      decoration: BoxDecoration(
+        border: Border.all(
+          width: 1,//边框宽度
+          color: Colors.black12,
+        )
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Text(this.title,style: style1),
+          SizedBox(height: 8),
+          Text(this.desc,style: style2),
+          SizedBox(height: 8),
+          Image.network(imageURL)
+        ],
+      ),
     );
   }
 }
