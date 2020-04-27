@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 main() => runApp(MyApp());
 
+//快捷键  option + enter 在return 的地方
+//查看抽象类的子类  option+command +B
+//
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
