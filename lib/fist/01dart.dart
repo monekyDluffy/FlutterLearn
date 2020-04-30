@@ -12,7 +12,6 @@ main()
             style: TextStyle(
                   color: Colors.red,
                   fontSize: 36,
-
               ),
           ) ,
          ) ,
