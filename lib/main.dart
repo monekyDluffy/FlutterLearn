@@ -1,22 +1,30 @@
 import 'package:flutter/material.dart';
+main()
+{
+//  runAPP 函数
+  runApp(
+      MaterialApp(
+          debugShowCheckedModeBanner: false,
+          home:Scaffold(
+            appBar:AppBar(
+              title: Text("主页",
+                textDirection: TextDirection.ltr,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 36,
+                ),
+              ) ,
+            ) ,
 
-
-
-
-
-class MyScaffold extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Material(
-
-      child: new Column(
-        children: <Widget>[
-          new MyAppBar(
-
+            body: Center(
+              child: Text("hello world"
+                style: TextStyle
+                  (color: Colors.orange,
+                  fontSize: 60,
+                ),
+              ),
+            ),
           )
-        ],
-      ),
-
-    );
-  }
+      )
+  );
 }

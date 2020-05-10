@@ -17,11 +17,12 @@ main()
          ) ,
 
         body: Center(
+
           child: Text(
-            "hello world",
+            "劝你做个好人，你不是个好人！",
             style: TextStyle
               (color: Colors.orange,
-              fontSize: 30,
+              fontSize: 60,
             ),
           ),
         ),
