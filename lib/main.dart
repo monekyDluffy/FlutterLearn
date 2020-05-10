@@ -17,7 +17,7 @@ main()
             ) ,
 
             body: Center(
-              child: Text("hello world"
+              child: Text("hello world",
                 style: TextStyle
                   (color: Colors.orange,
                   fontSize: 60,
