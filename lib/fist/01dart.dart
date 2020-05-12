@@ -19,7 +19,7 @@ main()
         body: Center(
 
           child: Text(
-            "劝你做个好人，你不是个好人！",
+            "！",
             style: TextStyle
               (color: Colors.orange,
               fontSize: 60,
