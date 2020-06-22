@@ -55,13 +55,11 @@ class HyHomeProductItem extends StatelessWidget {
         Text(title,style: textStyle),
         Text(desc,style: textStyle1),
         Image.network(imageURL),
-        Checkbox(
-          value: false,
+        Checkbox(value: false,
           onChanged: (bool value) {
-
             }),
     ]
-      );
+    );
   }
 }
 
